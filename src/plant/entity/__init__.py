@@ -1,1 +1,2 @@
-from plant.entity.config_entity import (DataIngestionConfig)
+from plant.entity.config_entity import (DataIngestionConfig,
+                                        PrepareBaseModelConfig)
