@@ -1,8 +1,15 @@
 artifacts_root: artifacts
 
 
+# data_ingestion:
+#   root_dir: artifacts/data_ingestion
+#   source_URL: https://github.com/Abdul-Jaweed/Plant-Disease-Classification/blob/68ccec27bbdd574c6ab243613e994696532543b4/sample-data/sample-data.zip
+#   local_data_file: artifacts/data_ingestion/data.zip
+#   unzip_dir: artifacts/data_ingestion
+
+
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  #source_URL: dataset//mini.zip
+  source_URL: https://raw.githubusercontent.com/Abdul-Jaweed/Plant-Disease-Classification/main/sample-data/sample-data.zip?token=GHSAT0AAAAAAB3M7MGBPN5QKIB3NL7TSYKYZDV2BCA
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
