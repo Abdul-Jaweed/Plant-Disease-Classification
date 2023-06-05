@@ -17,4 +17,5 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
+dvc
 -e .
